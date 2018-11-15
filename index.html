@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Assignment 8</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+	<h1 class="font" id=h1> Shanen's Animated Webpage</h1>
+	<!-- Boxes -->
+	<div class="mainflex">
+		<div class= "box1 text-align floatleft margin flex">
+			<h2 class="a font"> Starbuck's </h2>
+			<button onclick="document.getElementById('starb').style.filter = 'blur(10px)' ">Blur</button> 	
+		</div>
+		<div class = "box2 text-align floatleft margin flex"> 
+			<h2 class="a font"> Peet's </h2> 
+			<button onclick="document.getElementById('peets').style.filter = 'opacity(50%)' ">Transparent</button>
+		</div>
+		<div class = "box3 text-align floatleft margin flex"> 
+			<h2 class="a font"> Tully's </h2>
+			<button onclick="document.getElementById('tullys').style.filter = 'hue-rotate(90deg)' ">Hue</button>
+		</div>
+	</div>
+	<!-- Logos -->
+	<div class="mainflex">
+		<img id="starb" src="images/Starbucks.png" class="mainflex shake">
+		<img id="peets" src="images/peets.png" class="mainflex shake">
+		<img id="tullys" src="images/Tullys.png" class="mainflex shake">
+	</div>
+
+</body>
+</html>
